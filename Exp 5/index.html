@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center"><b>Student Registration Form</b></h1><hr>
+    <form action="#">
+        <label for="name">Full Name:</label>
+        <input type="text" placeholder="Enter your full name" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter your password" id="password" name="password" required><br><br>
+
+        <label for="gender">Select Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option value="">Select course</option>
+            <option value="btech">B.Tech</option>
+            <option value="mtech">M.Tech</option>
+            <option value="mba">MBA</option>
+            <option value="msc">M.Sc</option>
+        </select><br><br>
+        <label for="contact">Contact No:</label>
+        <input type="tel" placeholder="Enter your contact number" id="contact" name="contact" required><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="10" cols="50" placeholder="Enter your address"></textarea><br><br>
+
+        <input type="submit" value="Register"> 
+        <input type="submit" value="Clear"> <hr>
+        <p align="center">&copy; 2025 Student Registration Portal</p>
+    </form> 
+</body>
+</html>
